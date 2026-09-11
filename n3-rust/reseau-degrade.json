@@ -1,0 +1,208 @@
+{
+  "stations": {
+    "A1": "Gare Centrale",
+    "A2": "Marche",
+    "A3": "Universite",
+    "B1": "Hopital",
+    "B2": "Stade",
+    "B3": "Parc Nord",
+    "C1": "Musee",
+    "C2": "Port",
+    "C3": "Zone Industrielle",
+    "D1": "Aeroport",
+    "D2": "Terminus Ouest",
+    "D3": "Lycee",
+    "E1": "Quartier Latin",
+    "E2": "Bibliotheque",
+    "E3": "Piscine",
+    "F1": "Colline",
+    "F2": "Belvedere",
+    "F3": "Depot",
+    "G1": "Ile",
+    "G2": "Phare",
+    "H1": "Ilot isole",
+    "H2": "Fin de ligne"
+  },
+  "aretes": [
+    {
+      "de": "A1",
+      "vers": "A2",
+      "duree_min": 3,
+      "sens_unique": false
+    },
+    {
+      "de": "A2",
+      "vers": "A3",
+      "duree_min": 4,
+      "sens_unique": false
+    },
+    {
+      "de": "A1",
+      "vers": "B1",
+      "duree_min": 6,
+      "sens_unique": false
+    },
+    {
+      "de": "B1",
+      "vers": "B2",
+      "duree_min": 5,
+      "sens_unique": false
+    },
+    {
+      "de": "B2",
+      "vers": "B3",
+      "duree_min": 3,
+      "sens_unique": false
+    },
+    {
+      "de": "A3",
+      "vers": "B3",
+      "duree_min": 2,
+      "sens_unique": false
+    },
+    {
+      "de": "B1",
+      "vers": "C1",
+      "duree_min": 7,
+      "sens_unique": false
+    },
+    {
+      "de": "C1",
+      "vers": "C2",
+      "duree_min": 4,
+      "sens_unique": false
+    },
+    {
+      "de": "C2",
+      "vers": "C3",
+      "duree_min": 9,
+      "sens_unique": false
+    },
+    {
+      "de": "A1",
+      "vers": "C1",
+      "duree_min": 11,
+      "sens_unique": false
+    },
+    {
+      "de": "C1",
+      "vers": "D1",
+      "duree_min": 8,
+      "sens_unique": false
+    },
+    {
+      "de": "D1",
+      "vers": "D2",
+      "duree_min": 6,
+      "sens_unique": false
+    },
+    {
+      "de": "D2",
+      "vers": "D3",
+      "duree_min": 4,
+      "sens_unique": false
+    },
+    {
+      "de": "A2",
+      "vers": "D3",
+      "duree_min": 12,
+      "sens_unique": false
+    },
+    {
+      "de": "B3",
+      "vers": "E1",
+      "duree_min": 5,
+      "sens_unique": false
+    },
+    {
+      "de": "E1",
+      "vers": "E2",
+      "duree_min": 2,
+      "sens_unique": false
+    },
+    {
+      "de": "E2",
+      "vers": "E3",
+      "duree_min": 3,
+      "sens_unique": false
+    },
+    {
+      "de": "E3",
+      "vers": "B2",
+      "duree_min": 6,
+      "sens_unique": false
+    },
+    {
+      "de": "E1",
+      "vers": "F1",
+      "duree_min": 10,
+      "sens_unique": false
+    },
+    {
+      "de": "F1",
+      "vers": "F2",
+      "duree_min": 4,
+      "sens_unique": false
+    },
+    {
+      "de": "F2",
+      "vers": "F3",
+      "duree_min": 7,
+      "sens_unique": false
+    },
+    {
+      "de": "F3",
+      "vers": "C3",
+      "duree_min": 5,
+      "sens_unique": false
+    },
+    {
+      "de": "D1",
+      "vers": "F2",
+      "duree_min": 15,
+      "sens_unique": false
+    },
+    {
+      "de": "A3",
+      "vers": "E2",
+      "duree_min": 8,
+      "sens_unique": false
+    },
+    {
+      "de": "C2",
+      "vers": "G1",
+      "duree_min": 6,
+      "sens_unique": true
+    },
+    {
+      "de": "G1",
+      "vers": "G2",
+      "duree_min": 3,
+      "sens_unique": true
+    },
+    {
+      "de": "E2",
+      "vers": "E1",
+      "duree_min": 0,
+      "sens_unique": false
+    },
+    {
+      "de": "A1",
+      "vers": "A2",
+      "duree_min": 9,
+      "sens_unique": false
+    },
+    {
+      "de": "H1",
+      "vers": "H2",
+      "duree_min": 4,
+      "sens_unique": false
+    },
+    {
+      "de": "F3",
+      "vers": "C3",
+      "duree_min": -2,
+      "sens_unique": false
+    }
+  ]
+}

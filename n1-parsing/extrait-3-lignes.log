@@ -1,0 +1,3 @@
+2026-09-11T11:04:12|INFO |api-gateway|req=a71c3e04|Requete traitee en 142ms
+2026-09-11T11:04:58|WARN |billing    |req=b0f29d15|Latence elevee: 980ms
+2026-09-11T11:05:33|ERROR|auth-svc   |req=3c8e17aa|Timeout apres 3000ms

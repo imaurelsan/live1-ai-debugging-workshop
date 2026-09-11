@@ -1,0 +1,477 @@
+[
+  {
+    "id": 1017,
+    "nom": "Åberg",
+    "prenom": "Gabriel",
+    "groupe": "A",
+    "note": 6.6
+  },
+  {
+    "id": 1038,
+    "nom": "Abadie",
+    "prenom": "Jules",
+    "groupe": "A",
+    "note": 8.8
+  },
+  {
+    "id": 1011,
+    "nom": "Fernandes",
+    "prenom": "Wassim",
+    "groupe": "C",
+    "note": 6.8
+  },
+  {
+    "id": 1006,
+    "nom": "Zanetti",
+    "prenom": "Paul",
+    "groupe": "C",
+    "note": 15.6
+  },
+  {
+    "id": 1035,
+    "nom": "Duchêne",
+    "prenom": "Paul",
+    "groupe": "C",
+    "note": 14.7
+  },
+  {
+    "id": 1026,
+    "nom": "Diallo",
+    "prenom": "Valentine",
+    "groupe": "C",
+    "note": 19.3
+  },
+  {
+    "id": 1004,
+    "nom": "Chen",
+    "prenom": "Léa",
+    "groupe": "B",
+    "note": 5.9
+  },
+  {
+    "id": 1015,
+    "nom": "Aaron",
+    "prenom": "Nora",
+    "groupe": "C",
+    "note": 14.6
+  },
+  {
+    "id": 1040,
+    "nom": "Lefèvre",
+    "prenom": "Jules",
+    "groupe": "B",
+    "note": 16.5
+  },
+  {
+    "id": 1027,
+    "nom": "Gagnon",
+    "prenom": "Valentine",
+    "groupe": "C",
+    "note": 4.2
+  },
+  {
+    "id": 1023,
+    "nom": "Kowalski",
+    "prenom": "Quentin",
+    "groupe": "C",
+    "note": 11.6
+  },
+  {
+    "id": 3004,
+    "nom": "Åberg",
+    "prenom": "Ingrid",
+    "groupe": "A",
+    "note": 12.5
+  },
+  {
+    "id": 1037,
+    "nom": "Diallo",
+    "prenom": "Gabriel",
+    "groupe": "B",
+    "note": 6.6
+  },
+  {
+    "id": 1039,
+    "nom": "Kowalski",
+    "prenom": "Zoé",
+    "groupe": "B",
+    "note": 17.6
+  },
+  {
+    "id": 1024,
+    "nom": "Ubaldi",
+    "prenom": "Ulysse",
+    "groupe": "B",
+    "note": 9.8
+  },
+  {
+    "id": 1002,
+    "nom": "Okonkwo",
+    "prenom": "Inès",
+    "groupe": "B",
+    "note": 8.0
+  },
+  {
+    "id": 1043,
+    "nom": "Élias",
+    "prenom": "Jules",
+    "groupe": "C",
+    "note": 4.8
+  },
+  {
+    "id": 2056,
+    "nom": "Écuyer",
+    "prenom": "Marc",
+    "groupe": "B",
+    "note": 15.0
+  },
+  {
+    "id": 1021,
+    "nom": "Chen",
+    "prenom": "Inès",
+    "groupe": "A",
+    "note": 16.3
+  },
+  {
+    "id": 1029,
+    "nom": "Bacher",
+    "prenom": "Élise",
+    "groupe": "B",
+    "note": 17.3
+  },
+  {
+    "id": 3002,
+    "nom": "de Souza",
+    "prenom": "Marta",
+    "groupe": "C",
+    "note": 12.5
+  },
+  {
+    "id": 1041,
+    "nom": "Leroy",
+    "prenom": "Paul",
+    "groupe": "A",
+    "note": 15.1
+  },
+  {
+    "id": 1025,
+    "nom": "Haddad",
+    "prenom": "Chloé",
+    "groupe": "C",
+    "note": 17.6
+  },
+  {
+    "id": 1042,
+    "nom": "Bachelet",
+    "prenom": "Sofia",
+    "groupe": "C",
+    "note": 10.3
+  },
+  {
+    "id": 1045,
+    "nom": "Haddad",
+    "prenom": "Rachel",
+    "groupe": "A",
+    "note": 14.4
+  },
+  {
+    "id": 1001,
+    "nom": "Chen",
+    "prenom": "Théo",
+    "groupe": "A",
+    "note": 12.1
+  },
+  {
+    "id": 1028,
+    "nom": "Étienne",
+    "prenom": "Élise",
+    "groupe": "B",
+    "note": 9.3
+  },
+  {
+    "id": 4001,
+    "nom": "Vasseur",
+    "prenom": "Noé",
+    "groupe": "B",
+    "note": null
+  },
+  {
+    "id": 1030,
+    "nom": "Benali",
+    "prenom": "Valentine",
+    "groupe": "A",
+    "note": 10.6
+  },
+  {
+    "id": 4005,
+    "nom": "",
+    "prenom": "Anonyme",
+    "groupe": "C",
+    "note": 9.0
+  },
+  {
+    "id": 1000,
+    "nom": "Yilmaz",
+    "prenom": "Jules",
+    "groupe": "A",
+    "note": 11.2
+  },
+  {
+    "id": 1009,
+    "nom": "de Souza",
+    "prenom": "Zoé",
+    "groupe": "C",
+    "note": 10.1
+  },
+  {
+    "id": 3001,
+    "nom": "Ecuyer",
+    "prenom": "Léon",
+    "groupe": "A",
+    "note": 15.0
+  },
+  {
+    "id": 1008,
+    "nom": "Élias",
+    "prenom": "Xavier",
+    "groupe": "A",
+    "note": 10.7
+  },
+  {
+    "id": 1032,
+    "nom": "Thibault",
+    "prenom": "Chloé",
+    "groupe": "B",
+    "note": 4.1
+  },
+  {
+    "id": 1007,
+    "nom": "Jacob",
+    "prenom": "Malik",
+    "groupe": "A",
+    "note": 19.5
+  },
+  {
+    "id": 1000,
+    "nom": "Yilmaz",
+    "prenom": "Jules",
+    "groupe": "A",
+    "note": 11.2
+  },
+  {
+    "id": 1050,
+    "nom": "Da Silva",
+    "prenom": "Quentin",
+    "groupe": "C",
+    "note": 14.5
+  },
+  {
+    "id": 2057,
+    "nom": "Duchêne",
+    "prenom": "Anne",
+    "groupe": "B",
+    "note": 15.0
+  },
+  {
+    "id": 1010,
+    "nom": "Garcia",
+    "prenom": "Théo",
+    "groupe": "C",
+    "note": 4.9
+  },
+  {
+    "id": 2053,
+    "nom": "Abadie",
+    "prenom": "Zoé",
+    "groupe": "B",
+    "note": 15.0
+  },
+  {
+    "id": 1005,
+    "nom": "Thibault",
+    "prenom": "Sofia",
+    "groupe": "C",
+    "note": 11.8
+  },
+  {
+    "id": 2052,
+    "nom": "Zanetti",
+    "prenom": "Alice",
+    "groupe": "B",
+    "note": 15.0
+  },
+  {
+    "id": 4003,
+    "nom": "Rossi",
+    "prenom": "Gian",
+    "groupe": "C",
+    "note": "16.5"
+  },
+  {
+    "id": 1033,
+    "nom": "Kowalski",
+    "prenom": "Fatou",
+    "groupe": "B",
+    "note": 5.9
+  },
+  {
+    "id": 2055,
+    "nom": "Chen",
+    "prenom": "Wei",
+    "groupe": "B",
+    "note": 15.0
+  },
+  {
+    "id": 1020,
+    "nom": "Roux",
+    "prenom": "Inès",
+    "groupe": "C",
+    "note": 5.0
+  },
+  {
+    "id": 1044,
+    "nom": "Chen",
+    "prenom": "Bastien",
+    "groupe": "A",
+    "note": 6.2
+  },
+  {
+    "id": 1018,
+    "nom": "Rossi",
+    "prenom": "Xavier",
+    "groupe": "C",
+    "note": 15.1
+  },
+  {
+    "id": 4002,
+    "nom": "Imbert",
+    "prenom": "Tessa",
+    "groupe": "A"
+  },
+  {
+    "id": 4004,
+    "nom": "Petit",
+    "prenom": "Suzanne",
+    "groupe": "B",
+    "note": 21.5
+  },
+  {
+    "id": 1019,
+    "nom": "Weber",
+    "prenom": "Inès",
+    "groupe": "B",
+    "note": 7.9
+  },
+  {
+    "id": 1003,
+    "nom": "Vasseur",
+    "prenom": "Wassim",
+    "groupe": "B",
+    "note": 16.0
+  },
+  {
+    "id": 1031,
+    "nom": "Tanaka",
+    "prenom": "Quentin",
+    "groupe": "A",
+    "note": 8.6
+  },
+  {
+    "id": 1012,
+    "nom": "Bacher",
+    "prenom": "Wassim",
+    "groupe": "C",
+    "note": 9.5
+  },
+  {
+    "id": 1022,
+    "nom": "Duchêne",
+    "prenom": "Léa",
+    "groupe": "A",
+    "note": 15.0
+  },
+  {
+    "id": 3003,
+    "nom": "De Souza",
+    "prenom": "Pedro",
+    "groupe": "C",
+    "note": 12.5
+  },
+  {
+    "id": 1046,
+    "nom": "Vasseur",
+    "prenom": "Rachel",
+    "groupe": "B",
+    "note": 4.2
+  },
+  {
+    "id": 1013,
+    "nom": "Ubaldi",
+    "prenom": "Élise",
+    "groupe": "C",
+    "note": 18.5
+  },
+  {
+    "id": 1051,
+    "nom": "Aaron",
+    "prenom": "Hugo",
+    "groupe": "B",
+    "note": 10.0
+  },
+  {
+    "id": 1047,
+    "nom": "Sadik",
+    "prenom": "Jules",
+    "groupe": "C",
+    "note": 8.1
+  },
+  {
+    "id": 1034,
+    "nom": "Gagnon",
+    "prenom": "Hugo",
+    "groupe": "B",
+    "note": 4.6
+  },
+  {
+    "id": 1014,
+    "nom": "Duchêne",
+    "prenom": "Paul",
+    "groupe": "C",
+    "note": 12.7
+  },
+  {
+    "id": 2054,
+    "nom": "Moreau",
+    "prenom": "Paul",
+    "groupe": "B",
+    "note": 15.0
+  },
+  {
+    "id": 1049,
+    "nom": "Vasseur",
+    "prenom": "Ulysse",
+    "groupe": "C",
+    "note": 19.0
+  },
+  {
+    "id": 1016,
+    "nom": "Costa",
+    "prenom": "Théo",
+    "groupe": "B",
+    "note": 16.5
+  },
+  {
+    "id": 1036,
+    "nom": "Da Silva",
+    "prenom": "Malik",
+    "groupe": "B",
+    "note": 19.6
+  },
+  {
+    "id": 1048,
+    "nom": "Petit",
+    "prenom": "Paul",
+    "groupe": "A",
+    "note": 9.0
+  }
+]

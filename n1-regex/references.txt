@@ -1,0 +1,84 @@
+# Format attendu : PP-AAAA-NNNNN-V
+#   PP     deux lettres majuscules (code pays ISO)
+#   AAAA   annee sur 4 chiffres, entre 2015 et 2030
+#   NNNNN  numero de sequence sur exactement 5 chiffres
+#   V      une seule lettre majuscule (variante)
+# Une reference par ligne. Les lignes commencant par # sont des commentaires.
+
+# --- valides ------------------------------------------------------------
+FR-2026-00412-A
+DE-2015-99999-Z
+IT-2030-00001-B
+ES-2022-04815-M
+PT-2019-12345-Q
+BE-2026-00000-A
+NL-2024-70007-X
+LU-2017-00042-C
+
+# --- invalides : casse --------------------------------------------------
+fr-2026-00412-a
+Fr-2026-00412-A
+FR-2026-00412-a
+
+# --- invalides : longueur de champ --------------------------------------
+FR-2026-0412-A
+FR-2026-004120-A
+F-2026-00412-A
+FRA-2026-00412-A
+FR-26-00412-A
+FR-2026-00412-AB
+
+# --- invalides : annee hors bornes --------------------------------------
+FR-1899-00412-A
+FR-2014-00412-A
+FR-2031-00412-A
+FR-0000-00412-A
+
+# --- invalides : champ manquant ou separateur ---------------------------
+FR-2026-00412
+FR-2026--A
+FR-2026-00412-
+-2026-00412-A
+FR/2026/00412/A
+FR_2026_00412_A
+FR 2026 00412 A
+FR-2026-00412-A-B
+
+# --- invalides : caracteres interdits -----------------------------------
+FR-2026-0O412-A
+FR-2O26-00412-A
+FR-2026-00412-1
+F1-2026-00412-A
+FR-2026-004 12-A
+
+# --- pieges : la reference est valide mais noyee dans du texte ----------
+# (extraction, pas validation : la regex doit-elle matcher ici ?)
+Commande passee sous la reference FR-2026-00412-A le 14 mars.
+Voir aussi : DE-2015-99999-Z, IT-2030-00001-B et ES-2022-04815-M.
+[ref=PT-2019-12345-Q] statut=expedie
+"NL-2024-70007-X"
+(BE-2026-00000-A)
+Ref.FR-2026-00413-A;suite
+
+# --- pieges : faux positifs d'une regex sans ancrage --------------------
+# Ces lignes contiennent une sous-chaine qui ressemble a une reference.
+XFR-2026-00412-AX
+AFR-2026-00412-AB
+ZZFR-2026-00412-AZZ
+123FR-2026-00412-A456
+FR-2026-00412-ABCDEF
+prefixeFR-2026-00412-Asuffixe
+
+# --- pieges : Unicode et espaces invisibles -----------------------------
+# Chiffres arabes-indiens, tiret cadratin, espace insecable, tabulation.
+FR-٢٠٢٦-00412-A
+FR—2026—00412—A
+FR-2026-00412-A 
+	FR-2026-00412-A
+FR-2026-00412-A​
+
+# --- pieges : casse limite ----------------------------------------------
+# Une ligne vide suit volontairement.
+
+FR-2026-00412-AA
+FRFR-2026-00412-A

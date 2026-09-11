@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "titre": "Rediger la spec de l'API",
+    "description": "Lister les endpoints et les codes de retour attendus",
+    "statut": "en_cours",
+    "priorite": 1,
+    "creee_le": "2026-09-07T18:00:00Z",
+    "etiquettes": []
+  },
+  {
+    "id": 2,
+    "titre": "Configurer le depot Git",
+    "description": "Init, .gitignore, premier commit",
+    "statut": "terminee",
+    "priorite": 1,
+    "creee_le": "2026-09-06T17:00:00Z",
+    "etiquettes": [
+      "test",
+      "api"
+    ]
+  },
+  {
+    "id": 3,
+    "titre": "Ecrire le test du endpoint GET",
+    "description": "",
+    "statut": "a_faire",
+    "priorite": 2,
+    "creee_le": "2026-09-07T09:15:00Z",
+    "etiquettes": []
+  },
+  {
+    "id": 4,
+    "titre": "Corriger la validation du champ titre",
+    "description": "Titre vide accepte alors qu'il ne devrait pas",
+    "statut": "terminee",
+    "priorite": 2,
+    "creee_le": "2026-09-01T17:00:00Z",
+    "etiquettes": []
+  },
+  {
+    "id": 5,
+    "titre": "Mettre en place la gestion d'erreurs",
+    "description": "Pas de stack trace dans les reponses",
+    "statut": "terminee",
+    "priorite": 3,
+    "creee_le": "2026-09-10T08:45:00Z",
+    "etiquettes": []
+  },
+  {
+    "id": 6,
+    "titre": "Relire le diff de la derniere session",
+    "description": "Onze fichiers touches, trop pour une relecture",
+    "statut": "a_faire",
+    "priorite": 1,
+    "creee_le": "2026-09-09T10:30:00Z",
+    "etiquettes": [
+      "test"
+    ]
+  },
+  {
+    "id": 7,
+    "titre": "Verifier les paquets suggeres par l'IA",
+    "description": "Deux noms inconnus a controler",
+    "statut": "terminee",
+    "priorite": 1,
+    "creee_le": "2026-09-10T12:15:00Z",
+    "etiquettes": []
+  },
+  {
+    "id": 8,
+    "titre": "Ajouter la pagination sur la liste",
+    "description": "",
+    "statut": "terminee",
+    "priorite": 3,
+    "creee_le": "2026-09-11T11:30:00Z",
+    "etiquettes": []
+  },
+  {
+    "id": 9,
+    "titre": "Documenter les codes HTTP",
+    "description": "200, 201, 400, 404, 409",
+    "statut": "terminee",
+    "priorite": 3,
+    "creee_le": "2026-09-02T17:00:00Z",
+    "etiquettes": [
+      "test",
+      "doc"
+    ]
+  },
+  {
+    "id": 10,
+    "titre": "Supprimer la cle API du fichier config",
+    "description": "Urgent : elle a ete commitee",
+    "statut": "terminee",
+    "priorite": 3,
+    "creee_le": "2026-09-07T13:45:00Z",
+    "etiquettes": [
+      "doc",
+      "securite"
+    ]
+  },
+  {
+    "id": 11,
+    "titre": "Ecrire le README",
+    "description": "",
+    "statut": "en_cours",
+    "priorite": 1,
+    "creee_le": "2026-09-03T11:00:00Z",
+    "etiquettes": [
+      "securite",
+      "doc"
+    ]
+  },
+  {
+    "id": 12,
+    "titre": "Tester le cas de la liste vide",
+    "description": "Doit renvoyer 200 et un tableau vide, pas 404",
+    "statut": "en_cours",
+    "priorite": 3,
+    "creee_le": "2026-09-08T12:00:00Z",
+    "etiquettes": []
+  },
+  {
+    "id": 13,
+    "titre": "Renommer le champ 'done' en 'terminee'",
+    "description": "Coherence avec le reste du projet",
+    "statut": "terminee",
+    "priorite": 2,
+    "creee_le": "2026-09-03T13:15:00Z",
+    "etiquettes": [
+      "doc"
+    ]
+  },
+  {
+    "id": 14,
+    "titre": "Gerer les accents dans le titre",
+    "description": "Encodage UTF-8 de bout en bout",
+    "statut": "a_faire",
+    "priorite": 3,
+    "creee_le": "2026-09-02T16:30:00Z",
+    "etiquettes": [
+      "securite"
+    ]
+  },
+  {
+    "id": 15,
+    "titre": "Ajouter un filtre par statut",
+    "description": "",
+    "statut": "terminee",
+    "priorite": 2,
+    "creee_le": "2026-09-10T15:00:00Z",
+    "etiquettes": []
+  },
+  {
+    "id": 16,
+    "titre": "Refactorer le module de stockage",
+    "description": "Il fait 210 lignes, trop long",
+    "statut": "en_cours",
+    "priorite": 2,
+    "creee_le": "2026-09-11T09:00:00Z",
+    "etiquettes": [
+      "securite",
+      "doc"
+    ]
+  }
+]

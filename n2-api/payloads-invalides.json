@@ -1,0 +1,73 @@
+[
+  {
+    "_pourquoi": "titre vide",
+    "titre": "",
+    "statut": "a_faire",
+    "priorite": 1
+  },
+  {
+    "_pourquoi": "titre absent",
+    "statut": "a_faire",
+    "priorite": 1
+  },
+  {
+    "_pourquoi": "titre de 512 caracteres",
+    "titre": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "statut": "a_faire",
+    "priorite": 1
+  },
+  {
+    "_pourquoi": "statut inconnu",
+    "titre": "Tache valide",
+    "statut": "archivee",
+    "priorite": 1
+  },
+  {
+    "_pourquoi": "priorite hors bornes",
+    "titre": "Tache valide",
+    "statut": "a_faire",
+    "priorite": 99
+  },
+  {
+    "_pourquoi": "priorite en chaine",
+    "titre": "Tache valide",
+    "statut": "a_faire",
+    "priorite": "haute"
+  },
+  {
+    "_pourquoi": "champ inconnu en plus",
+    "titre": "Tache valide",
+    "statut": "a_faire",
+    "priorite": 1,
+    "admin": true
+  },
+  {
+    "_pourquoi": "id impose par le client",
+    "id": 999,
+    "titre": "Tache valide",
+    "statut": "a_faire",
+    "priorite": 1
+  },
+  {
+    "_pourquoi": "injection HTML dans le titre",
+    "titre": "<script>alert(1)</script>",
+    "statut": "a_faire",
+    "priorite": 1
+  },
+  {
+    "_pourquoi": "titre avec espaces seulement",
+    "titre": "     ",
+    "statut": "a_faire",
+    "priorite": 1
+  },
+  {
+    "_pourquoi": "etiquettes n'est pas un tableau",
+    "titre": "Tache valide",
+    "statut": "a_faire",
+    "priorite": 1,
+    "etiquettes": "api"
+  },
+  {
+    "_pourquoi": "corps vide"
+  }
+]
