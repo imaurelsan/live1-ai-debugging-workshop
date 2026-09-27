@@ -1,0 +1,42 @@
+{
+  "info": {
+    "name": "N2 Mini API Taches",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "base_url", "value": "http://127.0.0.1:8000" },
+    { "key": "tache_id", "value": "1" }
+  ],
+  "item": [
+    {
+      "name": "Lister les tâches",
+      "request": { "method": "GET", "url": "{{base_url}}/taches" }
+    },
+    {
+      "name": "Obtenir une tâche",
+      "request": { "method": "GET", "url": "{{base_url}}/taches/{{tache_id}}" }
+    },
+    {
+      "name": "Créer une tâche",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": { "mode": "raw", "raw": "{\n  \"titre\": \"Préparer la démonstration\",\n  \"statut\": \"a_faire\",\n  \"priorite\": 2\n}" },
+        "url": "{{base_url}}/taches"
+      }
+    },
+    {
+      "name": "Modifier une tâche",
+      "request": {
+        "method": "PATCH",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": { "mode": "raw", "raw": "{\n  \"statut\": \"en_cours\"\n}" },
+        "url": "{{base_url}}/taches/{{tache_id}}"
+      }
+    },
+    {
+      "name": "Supprimer une tâche",
+      "request": { "method": "DELETE", "url": "{{base_url}}/taches/{{tache_id}}" }
+    }
+  ]
+}
